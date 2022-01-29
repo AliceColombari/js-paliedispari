@@ -24,7 +24,7 @@ for (let i= 0; i < corretto == false; i++) {
 }
 
 // L'UTENTE SCEGLIE UN NUMERO DA 1 A 5
-let numeroUtente = prompt('Scegli un numero compreso tra 1 e 5');
+let numeroUtente = parseInt(prompt('Scegli un numero compreso tra 1 e 5'));
 console.log(numeroUtente);
 
 // condizione per far si che l'utente inserisca correttamente un numero compreso tra 1 e 5
@@ -48,7 +48,7 @@ let numeroComputer = numeroRandom(1, 5);
 console.log(numeroComputer);
 
 // VARIABILE PER FARE LA SOMMA DEI DUE NUMERI GIOCATI UTENTE E COMPUTER // ????????
-let creoSomma = numeroUtente + numeroComputer;
+let creoSomma = +numeroUtente + +numeroComputer;
 console.log(numeroUtente + '+' + numeroComputer + '=' + creoSomma);
 
 // FUNZIONE CHE FACCIO PER STABILIRE SE ESCE PARI O DISPARI
