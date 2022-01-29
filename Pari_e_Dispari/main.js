@@ -47,7 +47,7 @@ function numeroRandom (from, to) {
 let numeroComputer = numeroRandom(1, 5);
 console.log(numeroComputer);
 
-// VARIABILE PER FARE LA SOMMA DEI DUE NUMERI GIOCATI UTENTE E COMPUTER // ????????
+// VARIABILE PER FARE LA SOMMA DEI DUE NUMERI GIOCATI UTENTE E COMPUTER
 let creoSomma = +numeroUtente + +numeroComputer;
 console.log(numeroUtente + '+' + numeroComputer + '=' + creoSomma);
 
